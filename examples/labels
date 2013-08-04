@@ -1,0 +1,7 @@
+NOP
+#JMP ende
+OUT R1
+JMP wrong
+ende: LDK R1 @10
+OUT R1
+wrong: STOP
